@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+//declaration
+void printName(string name);
+
+int main() {
+
+	printName("raidin");
+	
+
+
+}
+void printName(string name) {
+	
+	cout <<"hello " << name << endl;
+}
